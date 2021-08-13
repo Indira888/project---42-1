@@ -2,12 +2,12 @@ var iss,issimg,spaceCraft,scimg1,scimg2,scimg3,scimg4,backimg;
 var hasDocked=false;
 
 function preload() {
-backimg=loadImage("images/spacebg.jpg");
-issimg=loadImage("images/iss.png");
-scimg1=loadImage("images/spacecraft1.png");
-scimg2=loadImage("images/spacecraft2.png");
-scimg3=loadImage("images/spacecraft3.png");
-scimg4=loadImage("images/spacecraft4.png");
+backimg=loadImage("spacebg.jpg");
+issimg=loadImage("iss.png");
+scimg1=loadImage("spacecraft1.png");
+scimg2=loadImage("spacecraft2.png");
+scimg3=loadImage("spacecraft3.png");
+scimg4=loadImage("spacecraft4.png");
 }
 
 function setup() {
